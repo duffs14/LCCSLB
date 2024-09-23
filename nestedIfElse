@@ -1,0 +1,17 @@
+age=int(input("Enter age: "))
+
+if age<10:
+
+print("Do not allow on to ride")
+
+else:
+
+height=int(input("Enter height in cm: "))
+
+if (height<130):
+
+print("Do not allow on to ride")
+
+else:
+
+print("Allow on to ride")
