@@ -1,0 +1,11 @@
+length = float(input('Enter the length of a Rectangle: '))
+
+width = float(input('Enter the width of a Rectangle: '))
+
+Perimeter = 2 * (width + length)
+
+Area = width * height
+
+print("Perimeter of Rectangle is: %.2f" %Perimeter)
+
+print("Area of a Rectangle is: %.2f" %Area)
