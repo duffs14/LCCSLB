@@ -1,0 +1,14 @@
+def binary_search (v, L):
+    
+    lo = 0
+    hi = len(L) -1
+    while (lo <= hi):
+        mid = (lo + hi)//2
+        
+        if L[mid] > v:
+            hi = mid - 1
+        elif L[mid] < v:
+            lo = mid + 1
+        else:
+            return mid
+    return len (L)
